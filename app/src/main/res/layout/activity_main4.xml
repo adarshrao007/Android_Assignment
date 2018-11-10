@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.adarsh.liveyoung.Main4Activity">
+
+    <Button
+        android:id="@+id/pinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/infosearch"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="119dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginRight="110dp"
+        android:text="Patient Information" />
+
+    <Button
+        android:id="@+id/infosearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/pinfo"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/pinfo"
+        android:layout_marginBottom="204dp"
+        android:text="INFORMATION SEARCH" />
+
+</RelativeLayout>
